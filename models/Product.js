@@ -30,7 +30,7 @@ Product.init(
     // price column
     price :{
       // decimal
-      type: DataTypes.DECIMAL,
+      type: DataTypes.DECIMAL(10,2),
       // doesn't allow null values
       allowNull: false,
       // validate value is a decimal 
