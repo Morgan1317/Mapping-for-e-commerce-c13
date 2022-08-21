@@ -31,8 +31,11 @@
    mysql2, express, dotenv, and sequelize are required. Do not forget to update the example env file, to have your information, and change the name to .env to work properly. 
    
    /categories
+   
    /tags
+   
    /products
+   
    are the api routes used. You can also get these by id. 
 
   ## Tests
